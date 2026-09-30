@@ -1,0 +1,9 @@
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+.DS_Store
+
+# Herramientas de test
+tools/js-tests/node_modules/

@@ -1,0 +1,12 @@
+{
+  "name": "reelsblocker-js-tests",
+  "private": true,
+  "description": "Tests de blocker.js con jsdom. Solo herramienta de desarrollo: la app no tiene dependencias.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  }
+}

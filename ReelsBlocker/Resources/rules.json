@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "blockedPathPrefixes": ["/reels/", "/reel/", "/explore/"],
+  "allowedPathPrefixes": ["/explore/search/"],
+  "singleReelPathPattern": "^/reels?/[A-Za-z0-9_-]+/?$",
+  "hideSelectors": [
+    "a[href='/reels/']",
+    "a[href='/explore/']",
+    { "selector": "svg[aria-label='Reels']", "ancestors": 4 },
+    { "selector": "svg[aria-label='Explore']", "ancestors": 4 },
+    { "selector": "svg[aria-label='Explorar']", "ancestors": 4 },
+    "div[role='banner'] a[href*='app_store']"
+  ],
+  "hideAncestorLevels": 2,
+  "neverHideInside": ["a[href^='/reel/']", "a[href^='/p/']"],
+  "lockScrollOnReelView": true,
+  "reelViewHideSelectors": [
+    "[aria-label='Next']",
+    "[aria-label='Siguiente']",
+    "[aria-label='Previous']",
+    "[aria-label='Anterior']"
+  ],
+  "hideSponsored": true,
+  "sponsoredLabels": ["Sponsored", "Publicidad", "Patrocinado"]
+}
